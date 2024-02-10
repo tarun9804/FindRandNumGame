@@ -11,7 +11,7 @@ def get_requirement(filepath):
 
 setup(
     name="Finding Number Game",
-    version="0.0.4",
+    version="0.0.6",
     description="The game to find a computer generated number",
     author="Tarun",
     packages=find_packages(),

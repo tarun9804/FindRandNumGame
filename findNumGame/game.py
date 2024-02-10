@@ -21,8 +21,9 @@ class FindNumGame:
             else:
                 print("Hooray, guessed it correctly")
                 break
-            count = count + 1;
-        print("Exceeded your limit of chance, Try again!!")
+            count = count + 1
+        if count >= self.max_chance:
+            print("Exceeded your limit of chance, Try again!!")
 
 
 if __name__ == "__main__":
